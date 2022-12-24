@@ -11,7 +11,6 @@ const markupArray = galleryItems.map(({ preview, original, description }) =>
     <img
       class="gallery__image"
        src="${preview}"
-      data-source="${original}"
       alt="${description}"
     />
   </a>
